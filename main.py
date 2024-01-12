@@ -13,10 +13,11 @@ from utils import keep_alive
 if __name__ == '__main__':
 
   # If you are deploying on Replit, you can use this code to keep your bot alive
+  '''
   if 'y' in input('Are you deploying on Replit? (y/n): ').lower():
     from config import REPL_URL
     keep_alive.awake(REPL_URL, False)
-
+  '''
   # Setting up uvloop
   try:
     uvloop.install()
